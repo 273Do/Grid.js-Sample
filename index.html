@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="list_table_data">
+      <h3>配列データ</h3>
+      <p>あらかじめ用意した配列データをテーブルに描画します．</p>
+      <button id="list_table_button">以下のテーブルをpdfに変換</button>
+      <div id="list_table"></div>
+    </div>
+    <hr />
+    <div id="json_table_data">
+      <h3>jsonデータ</h3>
+      <p>動的にapiからデータを取得してテーブルを描画します．</p>
+      <button id="json_table_button">以下のテーブルをpdfに変換</button>
+      <div id="json_table"></div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.2/html2pdf.bundle.min.js"
+      integrity="sha512-MpDFIChbcXl2QgipQrt1VcPHMldRILetapBl5MPCA9Y8r7qvlwx1/Mc9hNTzY+kS5kX6PdoDq41ws1HiVNLdZA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
