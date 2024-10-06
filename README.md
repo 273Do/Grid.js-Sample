@@ -6,3 +6,5 @@
 
 Grid.js: https://github.com/grid-js/gridjs  
 html2pdf: https://github.com/spipu/html2pdf
+
+- delete .DS_Store file
